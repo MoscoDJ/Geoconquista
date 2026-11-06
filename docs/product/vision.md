@@ -65,4 +65,4 @@ Juego en línea y cuentas; WhatsApp real; apps en tiendas para los jugadores; va
 ## Preguntas abiertas que afectan a la visión
 
 - **P-04:** ¿Parejas +18 se juega en duplas o de forma individual?
-- **P-10:** ¿qué licencias se usan para el código y para el contenido? Hay que considerar que el contenido generado con IA tiene condiciones propias (`docs/assets/pipeline.md`).
+- **P-10:** respondida con D-26 (ADR-003).

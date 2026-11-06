@@ -65,3 +65,4 @@ El procedimiento completo está en la skill `documentation-first` (`.claude/skil
 
 - Los commits y las descripciones de PR **no llevan atribución** de ningún asistente: ni `Co-Authored-By`, ni «Generated with», ni ninguna variante. El mensaje termina en su última línea de contenido.
 - Solo se hace commit o push cuando el creador lo pide.
+- Los commits del creador, incluidos los que hace un agente por encargo suyo, **no** llevan `Signed-off-by`: el creador es el titular y no firma DCO. El DCO (`git commit -s`) es para las aportaciones externas (ADR-003, `CONTRIBUTING.md`).

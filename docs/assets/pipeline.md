@@ -60,7 +60,11 @@ Cada activo de `assets/` tiene una entrada con:
 | `terminos` | Términos de uso del proveedor y del plan de cuenta en la fecha de generación |
 | `aprobado_por`, `fecha_aprobacion` | Creador y fecha |
 
-## 6. Licencias: puntos abiertos para P-10
+## 6. Licencias (D-26, ADR-003)
+
+Las licencias están decididas en ADR-003: CC BY-SA 4.0 para imágenes y composiciones, y la licencia cerrada `LicenseRef-Geoconquista-Audio` (D-27) para todo lo generado con ElevenLabs, porque sus condiciones no permiten distribuir los efectos por separado. El campo `terminos` del manifiesto registra además la licencia de cada activo.
+
+### Puntos que siguen abiertos
 
 Antes de publicar (E7) hay que verificar, con los términos vigentes y el plan de cada cuenta, tres cosas:
 

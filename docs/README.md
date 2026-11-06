@@ -43,6 +43,8 @@ Etapas y criterios de salida: [roadmap/milestones.md](roadmap/milestones.md).
 | D-23 | 2026-11-06 | **Efectos rehechos:** se elige la **variante 3** de declaración de ataque (ping de radar, pulso y golpe de taiko) y la **variante 3** de conquista («braam» con golpe final de sello). |
 | D-24 | 2026-11-06 | **Cierre de preguntas de las reglas v0:** «mover» es un traslado por turno entre vecinos; el recorrido y sus precios se quedan como están; los dobles no hacen nada; la retirada es automática en v0; máximo 3 cartas en la mano y 1 por turno; perdonar un arancel es gratis; los tipos de vecindad solo cambian el dibujo; el asilado solo gana si vuelve al mapa; los **objetivos secretos salen del MVP** por ahora. **El banco nunca pone el dinero de un jugador:** quien no puede pagar debe hipotecar o vender, y si aun así no alcanza, quiebra (`gameplay/economy.md` §5 y §6). |
 | D-25 | 2026-11-06 | **G1 aprobada:** las reglas v0 (FS-001 a FS-008), incluido el diseño de hipoteca, venta de emergencia y quiebra, quedan aprobadas como provisionales para el slice. |
+| D-26 | 2026-11-06 | **Licencias (P-10):** código AGPL-3.0-or-later; contenido CC BY-SA 4.0; nombre y logotipo reservados; aportaciones con DCO, sin CLA; código de conducta Contributor Covenant. Las voces pueden tener una licencia más cerrada. Ver ADR-003. |
+| D-27 | 2026-11-06 | **Audio con licencia cerrada:** voces, efectos y música generados con ElevenLabs llevan la licencia de audio de Geoconquista (`LICENSES/LicenseRef-Geoconquista-Audio.md`): solo se redistribuyen como parte del juego o de un derivado. |
 
 ### Dados virtuales: nota técnica (D-08 y D-13, `PROPUESTO` hasta G1)
 
@@ -71,6 +73,7 @@ Leyenda: ✅ existe · ⏳ previsto en la etapa indicada.
 
 ### Gobernanza y producto
 - ✅ [decisions/ADR-000-gobernanza.md](decisions/ADR-000-gobernanza.md): reglas documentales y para agentes. `APROBADO`
+- ✅ [decisions/ADR-003-licencias.md](decisions/ADR-003-licencias.md): licencias y aportaciones. `APROBADO` (D-26, D-27)
 - ✅ [product/vision.md](product/vision.md): visión, pilares, requisitos y límites. `APROBADO`
 - ✅ [roadmap/milestones.md](roadmap/milestones.md): etapas, puertas y estado. `APROBADO`
 - ✅ [roadmap/plan-de-arranque.md](roadmap/plan-de-arranque.md): plan consolidado del debate, con las revisiones del 2026-11-04 y 2026-11-05. Referencia, no spec; las decisiones D-## prevalecen sobre él.

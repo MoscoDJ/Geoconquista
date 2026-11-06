@@ -724,7 +724,7 @@ Están agrupadas según el momento en que se necesitan para no abrumar el arranq
 | P-04 | (a) Modo Parejas +18: ¿se juega en duplas o individualmente con eventos de pareja? (b) ¿Se permite cambiar de modo durante la partida? | Individual con cartas de pareja; modo fijo en el MVP | Antes de E3 (`game-modes.md`) |
 | P-05 | ¿La casilla «WhatsApp» mantiene ese nombre público o se renombra, por ejemplo a «Mensajería» o «Chat privado»? | Nombre genérico en la interfaz pública, sin el logo; «WhatsApp» como referencia temática interna | Antes de E3 |
 | P-12 | ¿Quién revisa editorialmente el contenido +18 y el de `familiar_u18`? | El creador, más al menos una persona externa por paquete | Antes de E6 |
-| P-10 | ¿Licencia del código y del contenido? | La decide el creador. Separar código y contenido (DEC-12) | Antes de E7 |
+| P-10 | ¿Licencia del código y del contenido? | **Respondida (D-26):** AGPL-3.0-or-later para el código y CC BY-SA 4.0 para el contenido; audio de ElevenLabs con licencia propia (ADR-003) | Antes de E7 |
 | P-06 | *Cerrada por requisito expreso:* el nombre es **Geoconquista** | Mantener R-01; las capturas («Dominio Global») no reabren esta decisión | No requiere respuesta |
 
 ### 10.2 Puntos convergidos y asuntos pendientes de revisión
