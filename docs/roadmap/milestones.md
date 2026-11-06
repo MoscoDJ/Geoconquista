@@ -35,7 +35,7 @@ Avanza en paralelo y se engancha a la línea principal por los documentos de UX:
 |---|---|---|---|
 | **A0. Dirección** | Exploración de tres direcciones visuales y dos sonoras en `exploracion/`; marcos de estilo del tablero, una carta y un emblema; paleta, tipografías y paleta sonora | G0 y los accesos a las herramientas | `art-direction.md` y `audio-direction.md` en `APROBADO`. **En curso** |
 | **A1. Kit del slice** | Mapa vectorial de países (D-06), dados virtuales y su animación, emblemas y colores de jugador, iconos de casilla, la carta de espionaje, efectos básicos y música del lobby y de la partida | A0 y los documentos de UX de E3 | Activos en `assets/` con manifiesto; legibilidad a 2 m (AC-UX-02) comprobada en la pantalla real |
-| **A2. Kit del MVP** | Ilustraciones de los cinco mazos por modo, música por fase narrativa, voces del narrador y animaciones de eventos | A1 y las specs de E6 | Catálogo completo con estado editorial `aprobado` |
+| **A2. Kit del MVP** | Ilustraciones de los cinco mazos por modo, música por fase narrativa, voces del narrador en español (D-30) y animaciones de eventos | A1 y las specs de E6 | Catálogo completo con estado editorial `aprobado` |
 | **A3. Publicación** | Icono y recursos de la app Android, licencias de activos y paquetes +18 separados | A2 y E7 | Manifiesto completo y licencias verificadas |
 
 ## Siguiente paso

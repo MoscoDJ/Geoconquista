@@ -19,6 +19,10 @@
 
 Las reglas completas para quien programa, también si usas agentes de IA, están en [AGENTS.md](AGENTS.md).
 
+### Idiomas
+
+La documentación está en español y en inglés. El español es la versión de referencia: cada documento `nombre.md` tiene su traducción `nombre.en.md`. Si cambias un documento, actualiza las dos versiones; si solo escribes en inglés, no pasa nada: indícalo en el *pull request* y se traduce al español durante la revisión. El juego es nativo en español y tiene todos sus textos también en inglés. Las **voces y las imágenes con texto** solo se producen en español: si quieres que la versión en inglés tenga narrador o imágenes en inglés, ¡tus aportaciones son bienvenidas! Ver [docs/product/localization.md](docs/product/localization.md).
+
 ## Firma tus commits (DCO)
 
 Usamos el [Developer Certificate of Origin](DCO): con cada commit certificas que tienes derecho a aportar ese trabajo bajo la licencia del proyecto. Firma cada commit con:

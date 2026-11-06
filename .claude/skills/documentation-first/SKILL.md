@@ -25,6 +25,8 @@ Si falta algo, crea o actualiza lo necesario en estado `PROPUESTO`:
 - El documento de gameplay y `docs/gameplay/parameters.md`, si cambia una regla o una cifra.
 - La ficha de carta (`docs/templates/card.md`) o de activo (`docs/templates/asset-brief.md`), si es contenido o arte.
 
+Actualiza también la traducción `<nombre>.en.md` de cada documento que toques (D-29); si es un documento nuevo, créala.
+
 Después **detente** y pide la aprobación del creador. No continúes a la Fase 3 sobre documentos `PROPUESTO`.
 
 ## Fase 3. Plan de implementación

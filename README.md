@@ -1,6 +1,8 @@
+**Español** · [English](README.en.md)
+
 # Geoconquista
 
-Juego social de estrategia geopolítica, híbrido de mesa y digital. Se juega en persona, con dados reales y negociación cara a cara. Una pantalla grande muestra el tablero, una tablet hace de consola de mesa y cada jugador consulta en su móvil sus ejércitos secretos. Funciona en una red local, sin Internet.
+Juego social de estrategia geopolítica, híbrido de mesa y digital, en español e inglés. Se juega en persona, con negociación cara a cara: cada jugador lanza los dados deslizando el dedo en su móvil y caen en la tablet, a la vista de todos. Una pantalla grande muestra el tablero, una tablet hace de consola de mesa y cada jugador consulta en su móvil sus ejércitos secretos. Funciona en una red local, sin Internet.
 
 **Estado:** reglas v0 aprobadas (G1). Todavía no hay código de producto: el proyecto sigue *Documentation First* y el código empieza al aprobar la puerta G3.
 

@@ -63,7 +63,15 @@ Se usan los cinco puntos de `AGENTS.md` §5, con los estados `LISTO_PARA_IMPLEME
 ### 11. Secretos y activos generados
 Las claves de API van solo en `.env`, que está ignorado por git. Cada activo de `assets/` tiene una entrada en `assets/manifest.json` con su origen y los términos de licencia aplicables (`docs/assets/pipeline.md`).
 
-### 12. Definition of Ready y Definition of Done
+### 12. Documentación bilingüe (D-29, añadido el 2026-11-06)
+
+- El **español es la versión canónica**: los documentos se escriben, se revisan y se aprueban en español. Si la traducción dice algo distinto, manda el español.
+- Cada documento tiene su traducción al inglés en un archivo hermano: `core-loop.md` → `core-loop.en.md`. La traducción empieza con una nota que enlaza el original y recuerda que manda el español.
+- Todo cambio en un documento en español actualiza su `.en.md` **en el mismo commit**. Una traducción desactualizada se trata como un fallo de documentación.
+- Los estados (`APROBADO`, `PROPUESTO`…), los IDs y los identificadores de datos no se traducen.
+- Se traduce todo salvo `docs/roadmap/plan-de-arranque.md`, que queda como archivo histórico en español, y `Contexto/`.
+
+### 13. Definition of Ready y Definition of Done
 - **DoR:** la de `extras.md` §1, más dos condiciones: que la spec esté `APROBADO` y que cite la regla v0, o el resultado del simulador o de una sesión, que la respalda.
 - **DoD:** el código implementa solo lo documentado, cada AC tiene una prueba que pasa, la fila de `acceptance-matrix.md` está actualizada y no queda ninguna decisión «solo en código».
 

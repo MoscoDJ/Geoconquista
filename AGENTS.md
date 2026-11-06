@@ -33,6 +33,7 @@ Estado actual de las puertas: ver `docs/README.md`.
 - **IDs:** `FS-###` (spec de funcionalidad), `AC-###.#` (criterio de aceptación de la spec `###`), `ADR-###`, `D-###` (decisión del creador), `CARD-<tipo>-###` (carta), `EVT-###` (evento).
 - **Modos:** `familiar_u18`, `familiar_18`, `party_18`, `party_extreme_18`, `parejas_18`. Nunca `couples_18`.
 - **Visibilidad:** `público`, `propietario`, `partes_tratado` y `sistema`. La consola (tablet) **no** tiene un nivel propio de secretos.
+- **Idiomas (D-29):** la documentación se escribe y se aprueba en español, que es la versión canónica. Cada documento tiene su traducción al inglés en `<nombre>.en.md`, que se actualiza **en el mismo commit** que el original. Si difieren, manda el español. No se traducen los estados, los IDs ni los identificadores de datos. Excepción: el plan de arranque solo está en español.
 - **Rutas documentales:** el árbol de `docs/README.md`. No crear documentos con nombres alternativos (`game-loop.md`, `modes.md`, `host-screen.md`, etc.).
 - **Stack y hardware:** no se asume ninguna tecnología. Se remite a ADR-001 (stack y clientes) y ADR-002 (pantalla pública).
 

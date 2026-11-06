@@ -2,7 +2,7 @@
 
 | Campo | Valor |
 |---|---|
-| Estado | `PROPUESTO`. Música híbrida (D-18), narrador El Faraón (D-17) y efectos de exploración elegidos (D-21, D-23) |
+| Estado | `PROPUESTO`. Música híbrida (D-18), narrador El Faraón (D-17), solo en español (D-30), y efectos de exploración elegidos (D-21, D-23) |
 | Fecha | 2026-11-05 |
 | Fuentes | Visión (pilares 1, 5 y 7); brief §4.3 (fases narrativas) y §9.4 |
 
@@ -47,7 +47,8 @@ Un **narrador** o «locutor de noticias internacionales» anuncia los eventos p�
   - (b) un catálogo fijo de nombres de potencia ligados al color o al emblema (por ejemplo, «la Potencia Ámbar»), combinado con segmentos pregrabados: potencia + acción + región. Con 6 potencias y 24 regiones el catálogo es manejable.
 
   Recomendación: (b) para las acciones principales y (a) para el resto. Para esto los nombres de potencia tienen que ser contenido fijo, y eso se decide en `ux/lobby.md`.
-- **Voz (D-17):** «El Faraón – Powerful and Mysterious», español latinoamericano, grave y épico (ElevenLabs, voz de biblioteca `Rl2JPHsuEWSfwCD4ZHIQ`, modelo `eleven_v4`). Es la misma voz en todos los modos; el tono puede ser más teatral en los modos party si el texto lo pide.
+- **Idiomas (D-30):** el proyecto solo produce voces en español. Si la comunidad aporta un catálogo de frases en inglés, se usa en las salas en inglés; si no, suena el español (`product/localization.md` §4).
+- **Voz en español (D-17):** «El Faraón – Powerful and Mysterious», español latinoamericano, grave y épico (ElevenLabs, voz de biblioteca `Rl2JPHsuEWSfwCD4ZHIQ`, modelo `eleven_v4`). Es la misma voz en todos los modos; el tono puede ser más teatral en los modos party si el texto lo pide.
 - **Licencia:** es una voz de la biblioteca compartida de ElevenLabs, generada con plan Pro (uso comercial). Si su autor la retira de la biblioteca, los audios ya generados siguen siendo utilizables, pero no se podrían generar frases nuevas con ella. Por eso el catálogo de frases se genera completo de una vez, cuando esté cerrado.
 
 ## 5. Exploración A0

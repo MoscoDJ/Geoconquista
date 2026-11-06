@@ -45,6 +45,9 @@ Etapas y criterios de salida: [roadmap/milestones.md](roadmap/milestones.md).
 | D-25 | 2026-11-06 | **G1 aprobada:** las reglas v0 (FS-001 a FS-008), incluido el diseño de hipoteca, venta de emergencia y quiebra, quedan aprobadas como provisionales para el slice. |
 | D-26 | 2026-11-06 | **Licencias (P-10):** código AGPL-3.0-or-later; contenido CC BY-SA 4.0; nombre y logotipo reservados; aportaciones con DCO, sin CLA; código de conducta Contributor Covenant. Las voces pueden tener una licencia más cerrada. Ver ADR-003. |
 | D-27 | 2026-11-06 | **Audio con licencia cerrada:** voces, efectos y música generados con ElevenLabs llevan la licencia de audio de Geoconquista (`LICENSES/LicenseRef-Geoconquista-Audio.md`): solo se redistribuyen como parte del juego o de un derivado. |
+| D-28 | 2026-11-06 | **Juego bilingüe, español e inglés:** interfaz, cartas, retos, nombres y narrador. Reglas de localización en `product/localization.md`. **Precisado por D-30.** |
+| D-29 | 2026-11-06 | **Documentación bilingüe:** el **español es la versión canónica** (se escribe y se aprueba en español; si difieren, manda el español). Cada documento tiene su traducción al inglés en un archivo hermano `<nombre>.en.md`, actualizada en el mismo cambio. Se traduce todo salvo el plan de arranque, que queda como archivo histórico en español, y `Contexto/`. |
+| D-30 | 2026-11-06 | **El juego es nativo en español.** El proyecto produce **todos los textos en español y en inglés** (interfaz, cartas, retos y nombres). Las **voces y las imágenes con texto** se producen solo en español; las versiones en inglés las aporta la comunidad. La documentación sigue siendo bilingüe (D-29). |
 
 ### Dados virtuales: nota técnica (D-08 y D-13, `PROPUESTO` hasta G1)
 
@@ -65,7 +68,9 @@ Las recomendaciones que todavía no son decisiones (DEC-01 a DEC-12) están en e
 
 ## Estados de documento
 
-`PROPUESTO` → `APROBADO` (con aprobador y fecha) → `OBSOLETO`. `PENDIENTE` marca algo que espera una respuesta del creador. Solo el creador aprueba.
+`PROPUESTO` → `APROBADO` (con aprobador y fecha) → `OBSOLETO`.
+
+**Idiomas (D-29):** cada documento está en español, que es la versión canónica, y tiene al lado su traducción al inglés, `<nombre>.en.md`. Si difieren, manda el español. El plan de arranque solo está en español. `PENDIENTE` marca algo que espera una respuesta del creador. Solo el creador aprueba.
 
 ## Índice
 
@@ -74,6 +79,7 @@ Leyenda: ✅ existe · ⏳ previsto en la etapa indicada.
 ### Gobernanza y producto
 - ✅ [decisions/ADR-000-gobernanza.md](decisions/ADR-000-gobernanza.md): reglas documentales y para agentes. `APROBADO`
 - ✅ [decisions/ADR-003-licencias.md](decisions/ADR-003-licencias.md): licencias y aportaciones. `APROBADO` (D-26, D-27)
+- ✅ [product/localization.md](product/localization.md) (FS-009): idiomas del juego. `PROPUESTO`
 - ✅ [product/vision.md](product/vision.md): visión, pilares, requisitos y límites. `APROBADO`
 - ✅ [roadmap/milestones.md](roadmap/milestones.md): etapas, puertas y estado. `APROBADO`
 - ✅ [roadmap/plan-de-arranque.md](roadmap/plan-de-arranque.md): plan consolidado del debate, con las revisiones del 2026-11-04 y 2026-11-05. Referencia, no spec; las decisiones D-## prevalecen sobre él.

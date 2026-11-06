@@ -2,7 +2,7 @@
 
 | Campo | Valor |
 |---|---|
-| Estado | `APROBADO` por el creador, 2026-11-05 (G0). Actualizado con D-06 a D-09 (2026-11-05) y D-11 a D-13 (2026-11-06) |
+| Estado | `APROBADO` por el creador, 2026-11-05 (G0). Actualizado con D-06 a D-09 (2026-11-05) y D-11 a D-13, D-28 y D-30 (2026-11-06) |
 | Fecha | 2026-11-05 |
 | Fuentes | Brief del creador (`Contexto/GEOCONQUISTA_BRIEF_DEBATE.md` §2, §3.1 y §20); plan de arranque §1–§3 |
 
@@ -48,6 +48,7 @@ Son los R-01 a R-14 del plan de arranque §4.1. El creador modificó R-03 con D-
 - Ejércitos ocultos a los rivales.
 - Casillas de Hacienda, Migración, Correo electrónico, Mensajería y Verdad o Reto. «WhatsApp» queda solo como referencia temática interna, sin su nombre ni su logo en pantalla (P-05).
 - Cinco modos con el mismo núcleo.
+- Nativo en español, con todos los textos también en inglés; las voces y las imágenes con texto en inglés las aporta la comunidad (D-28, D-30, `localization.md`).
 - Open source y *Documentation First*.
 
 ## Metas de experiencia
@@ -60,7 +61,7 @@ Son los criterios CE-01 a CE-09 del plan de arranque §2.2. Los tres que definen
 
 ## Fuera de alcance del MVP
 
-Juego en línea y cuentas; WhatsApp real; apps en tiendas para los jugadores; varios mapas o clases de unidades; tiempo real; IA rival jugable; kit físico extenso; idiomas distintos del español; y cualquier servicio generativo en tiempo de partida, porque rompería el modo sin Internet. El detalle está en el plan de arranque §3.2.
+Juego en línea y cuentas; WhatsApp real; apps en tiendas para los jugadores; varios mapas o clases de unidades; tiempo real; IA rival jugable; kit físico extenso; idiomas distintos del español y el inglés; y cualquier servicio generativo en tiempo de partida, porque rompería el modo sin Internet. El detalle está en el plan de arranque §3.2.
 
 ## Preguntas abiertas que afectan a la visión
 

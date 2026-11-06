@@ -35,15 +35,15 @@ El creador quiere que la comunidad aporte código, contenido y arte, y que esas 
 - **DCO** (*Developer Certificate of Origin* 1.1, archivo `DCO`) en lugar de un acuerdo de cesión (CLA). Quien aporta firma cada commit con `git commit -s` y certifica que tiene derecho a aportarlo bajo la licencia del proyecto.
 - **El creador no firma DCO** en sus propios commits, porque es el titular. Esto mantiene su regla de commits sin pie de firma (`AGENTS.md` §8).
 - `CONTRIBUTING.md` explica el flujo *Documentation First* para quien aporta.
-- **Código de conducta:** Contributor Covenant 2.1 en español (`CODE_OF_CONDUCT.md`).
+- **Código de conducta:** Contributor Covenant 2.1, en español (`CODE_OF_CONDUCT.md`) y en su versión original en inglés (`CODE_OF_CONDUCT.en.md`).
 - **Contenido +18:** las cartas y retos aportados para los modos +18 pasan revisión editorial antes de entrar (P-12).
 
 ### 4. Audio de ElevenLabs (D-27)
 
 Lo que dicen las condiciones de ElevenLabs a 2026-11-06:
 
-- [Términos de uso](https://elevenlabs.io/terms-of-use) (actualizados el 09-10-2026), §4(c)(ii): el usuario conserva los derechos sobre su audio generado. §1(c): con plan de pago se permite el uso comercial.
-- [Anexo de la biblioteca de voces](https://elevenlabs.io/vla) (06-03-2026): si el autor retira una voz de la biblioteca, lo generado antes sigue siendo utilizable. No añade restricciones de redistribución para quien genera.
+- [Términos de uso](https://elevenlabs.io/terms-of-use) (actualizados el 2026-10-09), §4(c)(ii): el usuario conserva los derechos sobre su audio generado. §1(c): con plan de pago se permite el uso comercial.
+- [Anexo de la biblioteca de voces](https://elevenlabs.io/vla) (2026-03-06): si el autor retira una voz de la biblioteca, lo generado antes sigue siendo utilizable. No añade restricciones de redistribución para quien genera.
 - [Condiciones de ElevenCreative](https://elevenlabs.io/creative-terms), anexo 4 (efectos de sonido): se permite incorporarlos a juegos, pero **no** distribuirlos por separado, «as isolated audio files or samples, or as part of any sound … library».
 
 **Consecuencia:** el audio de ElevenLabs no se puede publicar con CC BY-SA, porque esa licencia permitiría a cualquiera extraer los archivos y redistribuirlos por separado. **Decisión del creador (D-27): todo el audio de ElevenLabs —voces, efectos y música— lleva la licencia cerrada.**
