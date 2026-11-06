@@ -1,0 +1,23 @@
+# Secretos
+.env
+.env.*
+!.env.example
+
+# Material de origen (ADR-000: pendiente decidir si se publica)
+Contexto/
+
+# Exploración de arte y audio (ADR-000 §10)
+exploracion/
+
+# Dependencias y builds (a partir de G3)
+node_modules/
+dist/
+build/
+coverage/
+*.log
+
+# Editor y sistema
+.vscode/
+*.code-workspace
+.DS_Store
+Thumbs.db
