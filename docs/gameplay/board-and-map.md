@@ -3,10 +3,10 @@
 | Campo | Valor |
 |---|---|
 | ID | FS-002 |
-| Estado | `PROPUESTO` (reglas v0, E1) |
+| Estado | **`APROBADO`** por el creador, 2026-11-06 (G1). Provisional para el slice: las cifras se ajustan con el simulador sin nueva aprobación; cambiar una regla exige actualizar este documento y aprobarlo otra vez |
 | Fecha | 2026-11-06 |
 | Fuentes | Plan de arranque DEC-02 y H-01; D-12, D-15, D-16, D-19; `territories-and-blocks.md` (FS-003) |
-| Aprobación | Pendiente del creador, en G1 |
+| Aprobación | Creador, 2026-11-06 (G1, D-25) |
 
 El tablero público tiene dos partes: el **mapa** (países, bloques, propietarios y amenaza; ver FS-003) y el **recorrido**, un anillo de casillas por el que avanzan las fichas de los jugadores. Caer en un país del recorrido permite comprarlo; caer en una casilla especial roba de su mazo. Una sola ficha por jugador, en el recorrido; en el mapa no hay fichas, solo colores y símbolos.
 
@@ -56,7 +56,7 @@ El tablero público tiene dos partes: el **mapa** (países, bloques, propietario
 ## 4. Movimiento en el recorrido
 
 - El jugador en turno lanza **dos dados** deslizando el dedo en su móvil (D-13). El host genera el resultado (`core-loop.md` §3) y la ficha avanza la suma en el sentido de las casillas.
-- Los dobles no tienen efecto especial en v0.
+- Los dobles no tienen ningún efecto (D-24).
 - Varias fichas pueden ocupar la misma casilla.
 
 ## 5. Presentación en el tablero público
@@ -74,5 +74,5 @@ El tablero público tiene dos partes: el **mapa** (países, bloques, propietario
 
 ## 7. Preguntas para el creador
 
-1. ¿Te parece bien el orden del recorrido, con los precios subiendo de Latinoamérica (20) a Pacífico Norte (40)?
-2. ¿Los dobles deberían hacer algo (repetir turno, por ejemplo)? Recomendación: nada en v0, para no alargar los turnos.
+1. ~~¿Orden del recorrido y precios de 20 a 40?~~ Sí (D-24).
+2. ~~¿Los dobles hacen algo?~~ No (D-24).

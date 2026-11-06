@@ -3,10 +3,10 @@
 | Campo | Valor |
 |---|---|
 | ID | FS-001 |
-| Estado | `PROPUESTO` (reglas v0, E1) |
+| Estado | **`APROBADO`** por el creador, 2026-11-06 (G1). Provisional para el slice: las cifras se ajustan con el simulador sin nueva aprobación; cambiar una regla exige actualizar este documento y aprobarlo otra vez |
 | Fecha | 2026-11-06 |
 | Fuentes | Plan de arranque H-02, DEC-06 y §6.2.1; D-08, D-13; observaciones de la revisión del 2026-11-04 (4 y 5) |
-| Aprobación | Pendiente del creador, en G1 |
+| Aprobación | Creador, 2026-11-06 (G1, D-25) |
 
 ## 1. Preparación
 
@@ -25,7 +25,7 @@ Una **ronda** es un turno de cada jugador, en el orden de asiento. Cada turno ti
 | 2. Dados | Lanza dos dados deslizando el dedo en su móvil | §3 |
 | 3. Movimiento | Su ficha avanza en el recorrido | `board-and-map.md` §4 |
 | 4. Casilla | Se resuelve la casilla: comprar, pagar arancel o robar carta | `economy.md` §3–§4, `board-and-map.md` §3 |
-| 5. Acciones | Opcionales: **un** acuerdo comercial, **una** carta y **una** acción estratégica (reclutar, mover o atacar) | `economy.md` §5, §4, `armies-and-fog-of-war.md` §2, `combat.md` |
+| 5. Acciones | Opcionales: **un** acuerdo comercial, **una** carta, hipotecar o levantar hipotecas, y **una** acción estratégica (reclutar, mover o atacar) | `economy.md` §5 y §7, §4, `armies-and-fog-of-war.md` §2, `combat.md` |
 | 6. Cierre | El jugador termina su turno | — |
 
 - La negociación verbal es libre en cualquier momento, pero solo tiene efecto cuando se formaliza en la fase 5 de quien está en turno.
@@ -63,4 +63,4 @@ La consola (tablet) muestra la partida y la caída de los dados, resuelve las ca
 ## 7. Preguntas para el creador
 
 1. ~~¿La consola puede lanzar por un jugador que no lo hace?~~ Sí (D-22).
-2. ¿Tres cartas en la mano, y una por turno, te parecen razonables para empezar?
+2. ~~¿Tres cartas en la mano y una por turno?~~ Sí (D-24).

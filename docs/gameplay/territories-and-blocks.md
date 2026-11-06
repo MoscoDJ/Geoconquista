@@ -3,10 +3,10 @@
 | Campo | Valor |
 |---|---|
 | ID | FS-003 |
-| Estado | Lista de países y bloques **`APROBADO`** por el creador, 2026-11-06 (D-20). El resto del documento, `PROPUESTO` hasta G1 |
+| Estado | **`APROBADO`** por el creador, 2026-11-06 (G1). Provisional para el slice: las cifras se ajustan con el simulador sin nueva aprobación; cambiar una regla exige actualizar este documento y aprobarlo otra vez |
 | Fecha | 2026-11-06 |
 | Fuentes | R-04 (bloques de 3); D-06 (países reales y actuales); D-12 (24 países en 8 bloques); D-15 (cambio de lista); D-16 (mapa estilizado); plan de arranque DEC-10 y H-03 |
-| Aprobación | Pendiente del creador, en G1 |
+| Aprobación | Creador, 2026-11-06 (G1, D-25) |
 
 ## 1. Reglas del mapa
 
@@ -45,7 +45,7 @@ Dos países son vecinos si existe una vecindad entre ellos. La vecindad decide a
 - **Marítima:** ruta por mar.
 - **Corredor:** une dos países jugables a través de países no jugables.
 
-En v0 los tres tipos **solo se distinguen visualmente** y tienen el mismo efecto en las reglas. Que el tipo cambie las reglas (por ejemplo, una penalización al atacar por mar) es la pregunta 2.
+Los tres tipos **solo se distinguen visualmente** y tienen el mismo efecto en las reglas (D-24).
 
 ### Dentro de cada bloque
 
@@ -106,4 +106,4 @@ Con 2 vecinos un país es fácil de defender; con 6, difícil. El simulador de E
 ## 5. Preguntas para el creador
 
 1. ~~¿Apruebas el reparto en bloques?~~ Aprobado (D-20).
-2. ¿Los tipos de vecindad (terrestre, marítima, corredor) cambian las reglas o solo el dibujo? **Recomendación para v0:** solo el dibujo. El simulador dirá si hace falta más.
+2. ~~¿Los tipos de vecindad cambian las reglas?~~ No, solo el dibujo (D-24).

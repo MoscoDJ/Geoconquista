@@ -7,7 +7,7 @@ La documentación aprobada es el contrato entre diseño, implementación y prueb
 | Puerta | Qué autoriza | Estado |
 |---|---|---|
 | G0 | Arranque: gobernanza, visión, spikes y exploración de arte y audio | **`APROBADO`** por el creador, 2026-11-05 |
-| G1 | Reglas v0 aprobadas (E1) | **Borrador completo**, pendiente de revisión del creador |
+| G1 | Reglas v0 aprobadas (E1) | **`APROBADO`** por el creador, 2026-11-06 |
 | G2a | Stack, red local y persistencia validados en laptop (ADR-001) | No iniciada |
 | G2b | Hardware Raspberry Pi 5 validado (ADR-002) | No iniciada |
 | G3 | **Código de producto** (`apps/`, `packages/`, `tools/`) | No iniciada |
@@ -41,6 +41,8 @@ Etapas y criterios de salida: [roadmap/milestones.md](roadmap/milestones.md).
 | D-21 | 2026-11-06 | **Efectos de sonido (exploración A0):** valen los de dados, compra, bloque completo y carta de Correo. Hay que rehacer los de declaración de ataque y conquista. |
 | D-22 | 2026-11-06 | **Reglas v0:** para pedir asilo solo cuentan las **cartas guardadas**, no el efectivo; el anfitrión **no puede expulsar** al asilado; los países libres **solo se compran**, no se atacan; la **consola puede lanzar los dados** por un jugador que no lo hace, con registro público. |
 | D-23 | 2026-11-06 | **Efectos rehechos:** se elige la **variante 3** de declaración de ataque (ping de radar, pulso y golpe de taiko) y la **variante 3** de conquista («braam» con golpe final de sello). |
+| D-24 | 2026-11-06 | **Cierre de preguntas de las reglas v0:** «mover» es un traslado por turno entre vecinos; el recorrido y sus precios se quedan como están; los dobles no hacen nada; la retirada es automática en v0; máximo 3 cartas en la mano y 1 por turno; perdonar un arancel es gratis; los tipos de vecindad solo cambian el dibujo; el asilado solo gana si vuelve al mapa; los **objetivos secretos salen del MVP** por ahora. **El banco nunca pone el dinero de un jugador:** quien no puede pagar debe hipotecar o vender, y si aun así no alcanza, quiebra (`gameplay/economy.md` §5 y §6). |
+| D-25 | 2026-11-06 | **G1 aprobada:** las reglas v0 (FS-001 a FS-008), incluido el diseño de hipoteca, venta de emergencia y quiebra, quedan aprobadas como provisionales para el slice. |
 
 ### Dados virtuales: nota técnica (D-08 y D-13, `PROPUESTO` hasta G1)
 
@@ -74,14 +76,14 @@ Leyenda: ✅ existe · ⏳ previsto en la etapa indicada.
 - ✅ [roadmap/plan-de-arranque.md](roadmap/plan-de-arranque.md): plan consolidado del debate, con las revisiones del 2026-11-04 y 2026-11-05. Referencia, no spec; las decisiones D-## prevalecen sobre él.
 
 ### Gameplay (E1, reglas v0)
-- ✅ [gameplay/core-loop.md](gameplay/core-loop.md) (FS-001): preparación, turno, dados virtuales y cartas. `PROPUESTO`
-- ✅ [gameplay/board-and-map.md](gameplay/board-and-map.md) (FS-002): recorrido, variantes A y B, casillas. `PROPUESTO`
-- ✅ [gameplay/territories-and-blocks.md](gameplay/territories-and-blocks.md) (FS-003): 24 países, 8 bloques y vecindades. Lista y bloques `APROBADO` (D-20)
-- ✅ [gameplay/economy.md](gameplay/economy.md) (FS-004): tesorería, ingreso, compra, arancel y comercio. `PROPUESTO`
-- ✅ [gameplay/armies-and-fog-of-war.md](gameplay/armies-and-fog-of-war.md) (FS-005): tropas, reclutar, mover, bandas y espionaje. `PROPUESTO`
-- ✅ [gameplay/combat.md](gameplay/combat.md) (FS-006): ataque, tirada, bajas y retirada. `PROPUESTO`
-- ✅ [gameplay/victory-and-endgame.md](gameplay/victory-and-endgame.md) (FS-007): dominio, límite de rondas y asilo político. `PROPUESTO`
-- ✅ [gameplay/parameters.md](gameplay/parameters.md) (FS-008): todas las cifras. `PROPUESTO`
+- ✅ [gameplay/core-loop.md](gameplay/core-loop.md) (FS-001): preparación, turno, dados virtuales y cartas. `APROBADO` (G1)
+- ✅ [gameplay/board-and-map.md](gameplay/board-and-map.md) (FS-002): recorrido, variantes A y B, casillas. `APROBADO` (G1)
+- ✅ [gameplay/territories-and-blocks.md](gameplay/territories-and-blocks.md) (FS-003): 24 países, 8 bloques y vecindades. `APROBADO` (D-20, G1)
+- ✅ [gameplay/economy.md](gameplay/economy.md) (FS-004): tesorería, ingreso, compra, arancel y comercio. `APROBADO` (G1)
+- ✅ [gameplay/armies-and-fog-of-war.md](gameplay/armies-and-fog-of-war.md) (FS-005): tropas, reclutar, mover, bandas y espionaje. `APROBADO` (G1)
+- ✅ [gameplay/combat.md](gameplay/combat.md) (FS-006): ataque, tirada, bajas y retirada. `APROBADO` (G1)
+- ✅ [gameplay/victory-and-endgame.md](gameplay/victory-and-endgame.md) (FS-007): dominio, límite de rondas y asilo político. `APROBADO` (G1)
+- ✅ [gameplay/parameters.md](gameplay/parameters.md) (FS-008): todas las cifras. `APROBADO` (G1)
 - ⏳ `gameplay/diplomacy.md`, `game-modes.md` y `truth-or-dare.md` (E3/E6)
 
 ### Arquitectura (E2/E3)

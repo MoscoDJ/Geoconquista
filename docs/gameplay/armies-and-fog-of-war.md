@@ -3,10 +3,10 @@
 | Campo | Valor |
 |---|---|
 | ID | FS-005 |
-| Estado | `PROPUESTO` (reglas v0, E1) |
+| Estado | **`APROBADO`** por el creador, 2026-11-06 (G1). Provisional para el slice: las cifras se ajustan con el simulador sin nueva aprobación; cambiar una regla exige actualizar este documento y aprobarlo otra vez |
 | Fecha | 2026-11-06 |
 | Fuentes | Plan de arranque H-05, H-06 y §6.3; R-04 y R-05; observación 4 de la revisión del 2026-11-04 (movimiento) |
-| Aprobación | Pendiente del creador, en G1 |
+| Aprobación | Creador, 2026-11-06 (G1, D-25) |
 
 ## 1. Tropas y milicia
 
@@ -16,7 +16,7 @@
 
 ## 2. Reclutar (acción estratégica)
 
-- Solo puede reclutar quien posee los 3 países de un **bloque completo** (R-04).
+- Solo puede reclutar quien posee los 3 países de un **bloque completo** (R-04) y **ninguno de ellos está hipotecado** (`economy.md` §5.1).
 - Por cada bloque completo, como máximo `reclutamiento_max_por_bloque` = 2 tropas nuevas por turno, pagando `coste_tropa` cada una.
 - Las tropas nuevas se colocan **directamente** en países propios de ese bloque, repartidas como quiera el jugador.
 - Si después se pierde un país del bloque, ya no se recluta con ese bloque. Las tropas ya desplegadas se quedan.
@@ -63,4 +63,4 @@ La inferencia que permite un cambio de banda es intencional: avisa a la mesa de 
 
 ## 7. Preguntas para el creador
 
-1. ¿Te parece bien que «mover» sea un solo traslado entre países vecinos por turno?
+1. ~~¿«Mover» es un solo traslado entre vecinos por turno?~~ Sí (D-24).

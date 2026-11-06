@@ -269,7 +269,7 @@ Matriz ponderada preliminar. Las puntuaciones (1–5) son **juicio preliminar de
 - **Alternativas:** (a) un moderador neutral que no juega y ve todo; (b) un jugador que opera la tablet; (c) la tablet rota entre jugadores.
 - **Recomendación:** que la tablet sea una **«consola de mesa» sin privilegios secretos**, sea quien sea quien la opere (b o c).
   - La consola captura los dados, resuelve las casillas según las reglas, muestra cartas públicas y pausa o reanuda la partida.
-  - **No ve** tropas, saldo privado, cartas privadas ni objetivos de nadie, ni el orden de los mazos.
+  - **No ve** tropas, saldo privado ni cartas privadas de nadie, ni el orden de los mazos. (Los objetivos secretos salen del MVP, D-24.)
   - **No dispone** de comandos arbitrarios como «dar dinero» o «aplicar multa» (V-5).
   - Las correcciones quedan en un **registro público** sin datos secretos y, si afectan a un rival, necesitan su confirmación. Solo se edita una captura antes de confirmar su resolución (DEC-11); tras revelar una carta o resolver un combate, un «deshacer» no restaura el secreto. El MVP no ofrece rollback general: se pausa y se registra la incidencia.
   - La pestaña «Ejércitos» de la consola muestra solo información pública: presencia o banda de amenaza aproximada.
@@ -611,7 +611,7 @@ La matriz de E3 asignará cada AC a su spec, hito, responsable y evidencia. E4/E
 | AC-CORE-01 | Cada país pertenece como máximo a un jugador; tropas y efectivo nunca son negativos. Turno, fase y recursos habilitan las acciones. Reclutar exige bloque completo, salvo una excepción de H-10A expresamente aprobada. Repetir una secuencia documentada de comandos/dados con el mismo estado y semilla da el mismo resultado. |
 | AC-COMBAT-01 | Ejemplos de §6.2 y las 36 parejas de dados por configuración límite dan los resultados esperados; cubrir milicia, N=1/D=5, retirada con varias salidas y cerco. Las tropas finales equivalen a las iniciales menos las bajas previstas; ninguna se duplica al ocupar o retirar. |
 | AC-END-01 | El slice termina al límite de rondas con su desempate documentado. Antes de implementar el MVP, la spec de H-09 debe fijar prioridad entre condiciones simultáneas y probar pérdida/recuperación de un bloque durante la ronda de dominio, expiración de vasallaje y empate. Cada país se cuenta una sola vez y se rechazan ciclos de vasallaje. |
-| AC-PRIV-01 | Para cualquier estado generado (incluidos estados aleatorios de prueba por propiedades), `vista_jugador(i)` no contiene la cantidad exacta de tropas, el efectivo exacto, las cartas privadas ni los objetivos de ningún $j \neq i$, salvo lo revelado temporalmente por un efecto vigente dirigido a $i$. |
+| AC-PRIV-01 | Para cualquier estado generado (incluidos estados aleatorios de prueba por propiedades), `vista_jugador(i)` no contiene la cantidad exacta de tropas, el efectivo exacto ni las cartas privadas de ningún $j \neq i$ (los objetivos secretos salen del MVP, D-24), salvo lo revelado temporalmente por un efecto vigente dirigido a $i$. |
 | AC-PRIV-02 | `vista_consola` y `vista_pública` no contienen ninguna cantidad exacta de tropas, efectivo privado ni el orden de los mazos. |
 | AC-PRIV-03 | Los rankings, gráficos, notificaciones y logs públicos se calculan únicamente con campos públicos (territorios, bloques e ingresos territoriales base). Hay una prueba automática que lo verifica. |
 | AC-PRIV-04 | Para cada observador (público, consola y cada jugador), estados/historias con iguales datos autorizados producen iguales vistas antes de una revelación prevista. Probar secuencias, no solo campos aislados: insolvencia→ingreso→mantenimiento→arancel, bajas propias, espionaje vencido y lista de objetivos de H-10B. No se acepta reconstrucción de tropas por pagos o elegibilidad no prevista en §6.3; las excepciones de combate/espionaje deben constar en la spec aprobada. |
@@ -790,7 +790,7 @@ C los aceptó íntegramente con comprobación lógica propia (turno 9). A no los
 
 ## Observaciones de la revisión del 2026-11-04 pendientes de revisión
 
-**Estado al 2026-11-06:** las reglas v0 proponen solución para la 2 (`economy.md` §4: el banco completa el arancel), la 4 (`armies-and-fog-of-war.md` §3: mover), la 5 (`core-loop.md` §2) y la observación 2 del consolidador (`victory-and-endgame.md` §3: asilo). La 1 (objetivos secretos) sigue abierta.
+**Estado al 2026-11-06:** la 1 se cierra con D-24 (los objetivos secretos salen del MVP). La 2 se resuelve con D-24: el acreedor recibe exactamente lo que paga el deudor, que antes hipoteca o vende; solo en una quiebra conoce su saldo (`economy.md` §4–§6). La 4 se resuelve en `armies-and-fog-of-war.md` §3, la 5 en `core-loop.md` §2 y la observación 2 del consolidador en `victory-and-endgame.md` §3 (asilo).
 
 1. **Objetivos secretos sin definir.** AC-PRIV-01 y DEC-06 protegen los «objetivos» de cada jugador, que el brief §3.2 lista como candidatos, pero ninguna hipótesis los define y las vías de victoria de H-09 son públicas. Hay que decidir si entran al MVP o se quitan de esos textos.
 2. **Impago parcial revela el saldo exacto al acreedor.** En la matriz de §6.3, el acreedor ve cuánto cobró; como el deudor queda en `0`, conoce su efectivo exacto previo. La matriz solo admite que se revela el `0`. Hay que corregir la inferencia aceptada o cambiar la regla.

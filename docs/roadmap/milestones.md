@@ -19,9 +19,9 @@ E0 ──┬─► E1: reglas v0 / G1 ──────────────
 | Etapa | Qué produce | Puerta de salida | Estado |
 |---|---|---|---|
 | **E0. Gobernanza y visión** | ADR-000, `AGENTS.md`, skill, `docs/README.md`, `vision.md` y este documento | **G0:** el creador aprueba ADR-000 y la visión; quedan autorizados los spikes y la exploración de arte y audio | **Completada:** G0 aprobada el 2026-11-05 |
-| **E1. Reglas v0** | Documentos de gameplay del slice, `parameters.md`, el mapa de países (D-06) como datos, el asilo político (D-09) y los escenarios límite como casos ejecutables | **G1:** el creador aprueba las reglas v0 como provisionales para el slice | **Borrador completo** (FS-001 a FS-008), en revisión |
+| **E1. Reglas v0** | Documentos de gameplay del slice, `parameters.md`, el mapa de países (D-06) como datos, el asilo político (D-09) y los escenarios límite como casos ejecutables | **G1:** el creador aprueba las reglas v0 como provisionales para el slice | **Completada:** G1 aprobada el 2026-11-06 (FS-001 a FS-008) |
 | **E2. Spikes** | S1 (móviles y app Android de tablet en la red local), S2 (Pi 5 y kiosko), S3 (router sin WAN), S4 (SQLite durable) | **G2a:** ADR-001 con evidencia en laptop. **G2b:** ADR-002 con evidencia en la Pi | Autorizada |
-| **E3. Documentación del slice** | Arquitectura, protocolo, UX de las tres superficies, contenido mínimo, estrategia de pruebas y matriz de aceptación | **G3:** autorización de código | Pendiente de G1 y G2a |
+| **E3. Documentación del slice** | Arquitectura, protocolo, UX de las tres superficies, contenido mínimo, estrategia de pruebas y matriz de aceptación | **G3:** autorización de código | Pendiente de G2a |
 | **E4. Motor, simulador y visor** | `engine`, `protocol` y `content` con pruebas; simulador con bots; visor de desarrollo | AC del motor en verde e informe del simulador que fija la variante y los parámetros | — |
 | **E5. Vertical slice** | Servidor, cliente con 3 rutas y app Android de consola; sesiones con personas | Sesión de aceptación con 4 personas en la Pi 5, sin WAN | — |
 | **E6. MVP** | Cinco modos, tratados, las 5 casillas, victorias y exilio | Partidas completas con 3 a 6 jugadores | — |
@@ -40,6 +40,6 @@ Avanza en paralelo y se engancha a la línea principal por los documentos de UX:
 
 ## Siguiente paso
 
-1. A0: primera ronda de exploración visual en `exploracion/a0/` para que el creador elija dirección.
-2. E1: reglas v0, empezando por los 24 países y sus bloques (`gameplay/territories-and-blocks.md`) y el asilo político.
-3. E2: preparar los spikes S1, S3 y S4.
+1. E2: spikes S1 (móviles y app Android en la red local), S3 (router sin WAN) y S4 (SQLite durable) en ramas `spike/*`, para cerrar G2a.
+2. A0 y A1: mapa estilizado retocado a mano en vectorial y recorrido de casillas alrededor del mapa.
+3. E3, tras G2a: arquitectura, protocolo, UX de las tres superficies y matriz de aceptación, para cerrar G3.

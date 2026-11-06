@@ -3,10 +3,10 @@
 | Campo | Valor |
 |---|---|
 | ID | FS-006 |
-| Estado | `PROPUESTO` (reglas v0, E1) |
+| Estado | **`APROBADO`** por el creador, 2026-11-06 (G1). Provisional para el slice: las cifras se ajustan con el simulador sin nueva aprobación; cambiar una regla exige actualizar este documento y aprobarlo otra vez |
 | Fecha | 2026-11-06 |
 | Fuentes | Plan de arranque H-07 y sus comprobaciones (§6.2); D-08 y D-13 (dados virtuales) |
-| Aprobación | Pendiente del creador, en G1 |
+| Aprobación | Creador, 2026-11-06 (G1, D-25) |
 
 ## 1. Declarar un ataque (acción estratégica)
 
@@ -72,4 +72,4 @@ Cada caso fija estado inicial, dados y resultado esperado. El simulador y las pr
 ## 7. Preguntas para el creador
 
 1. ~~¿Los países libres se pueden atacar?~~ No, solo se compran (D-22).
-2. ¿Te parece bien la retirada automática? Si en las sesiones resulta artificial, se cambia por que el defensor elija el destino al declararse el ataque.
+2. ~~¿Retirada automática?~~ Sí en v0 (D-24). Si en las sesiones resulta artificial, se cambia por que el defensor elija el destino.

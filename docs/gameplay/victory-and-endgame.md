@@ -3,10 +3,10 @@
 | Campo | Valor |
 |---|---|
 | ID | FS-007 |
-| Estado | `PROPUESTO` (reglas v0, E1) |
+| Estado | **`APROBADO`** por el creador, 2026-11-06 (G1). Provisional para el slice: las cifras se ajustan con el simulador sin nueva aprobación; cambiar una regla exige actualizar este documento y aprobarlo otra vez |
 | Fecha | 2026-11-06 |
 | Fuentes | Plan de arranque H-09 y H-10 (sustituido); D-09 y D-14 (asilo político); observación 2 del consolidador |
-| Aprobación | Pendiente del creador, en G1 |
+| Aprobación | Creador, 2026-11-06 (G1, D-25) |
 
 ## 1. Victoria por dominio
 
@@ -17,7 +17,7 @@
 ## 2. Fin por límite de rondas
 
 - La partida termina al cerrar la ronda `rondas_limite`: 12 con 3–4 jugadores y 10 con 5–6.
-- Gana quien posea **más países**. Empate: más bloques completos. Si persiste, victoria compartida.
+- Gana quien posea **más países**; los hipotecados cuentan. Empate: más bloques completos. Si persiste, victoria compartida.
 
 La victoria por **sumisión** (vasallaje sobre todos los demás) depende de los tratados y se especifica en E6 (`diplomacy.md`).
 
@@ -27,7 +27,7 @@ Sustituye al «gobierno en el exilio» del plan (H-10A y H-10B).
 
 ### 3.1 Cuándo se pide
 
-Un jugador que **pierde su último país** (por combate o por cualquier efecto) pierde su gobierno y debe pedir asilo inmediatamente. La partida se pausa hasta resolverlo.
+Un jugador que **pierde su último país** (por combate, por quiebra o por cualquier efecto) pierde su gobierno y debe pedir asilo inmediatamente. La partida se pausa hasta resolverlo.
 
 Empezar la partida sin países no cuenta: solo se activa al perder el último país después de haber tenido alguno.
 
@@ -55,7 +55,7 @@ Empezar la partida sin países no cuenta: solo se activa al perder el último pa
 - **Conserva su turno.** Cobra el `ingreso_base` (sin ingreso por países, porque no tiene) y no paga mantenimiento, porque no tiene tropas.
 - Lanza dados, avanza, resuelve casillas (compra, arancel, cartas) y puede comerciar.
 - **No tiene acción estratégica**, porque no tiene países ni tropas.
-- **Vuelve al mapa** en cuanto consigue un país: comprándolo al caer en uno libre o por comercio (`economy.md` §5). En ese momento el asilo termina.
+- **Vuelve al mapa** en cuanto consigue un país: comprándolo al caer en uno libre o por comercio (`economy.md` §7). En ese momento el asilo termina.
 
 ### 3.6 Si el refugio cae
 
@@ -84,4 +84,4 @@ Empezar la partida sin países no cuenta: solo se activa al perder el último pa
 
 1. ~~¿Qué cuenta como «poder»?~~ Solo las cartas guardadas (D-22).
 2. ~~¿El anfitrión puede expulsar al asilado?~~ No (D-22).
-3. ¿El asilado puede ganar la partida? Con estas reglas, solo si vuelve al mapa.
+3. ~~¿El asilado puede ganar?~~ Solo si vuelve al mapa (D-24).

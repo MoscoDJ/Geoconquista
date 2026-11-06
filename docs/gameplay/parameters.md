@@ -3,10 +3,10 @@
 | Campo | Valor |
 |---|---|
 | ID | FS-008 |
-| Estado | `PROPUESTO` (reglas v0, E1) |
+| Estado | **`APROBADO`** por el creador, 2026-11-06 (G1). Provisional para el slice: las cifras se ajustan con el simulador sin nueva aprobación; cambiar una regla exige actualizar este documento y aprobarlo otra vez |
 | Versión de la ficha | `v0.1` (2026-11-06) |
 | Fuentes | Plan de arranque §6.2 (ficha de parámetros inicial) y H-01 a H-12; D-07, D-09, D-12 a D-15 |
-| Aprobación | Pendiente del creador, en G1 |
+| Aprobación | Creador, 2026-11-06 (G1, D-25) |
 
 Todas las cifras del juego viven aquí y en los datos de contenido, **nunca en el código** (`AGENTS.md` §6). Ninguna está validada: son el punto de partida del simulador (E4) y de las sesiones con personas (E5). Cambiar una cifra no cambia una regla, así que no exige volver a G1; sí exige subir la versión de esta ficha y registrarlo en el acta de la sesión.
 
@@ -29,8 +29,10 @@ Todas las cifras del juego viven aquí y en los datos de contenido, **nunca en e
 | `ingreso_por_pais` | 5 por país propio y turno | `economy.md` §2 |
 | Precio por bloque | Latinoamérica 20 · África 20 · Asia del Sur 25 · Medio Oriente 25 · Europa occidental 30 · Europa oriental 30 · Asia oriental 35 · Pacífico Norte 40 | `economy.md` §3 |
 | Arancel según precio | 20 → 5 · 25 → 6 · 30 → 8 · 35 → 9 · 40 → 10 | `economy.md` §4 |
-| `enfriamiento_comercial` | Una vuelta completa de turnos ($t+P$) | `economy.md` §5 |
-| `acuerdos_por_turno` | 1 | `economy.md` §5 |
+| `enfriamiento_comercial` | Una vuelta completa de turnos ($t+P$) | `economy.md` §7 |
+| `acuerdos_por_turno` | 1 (las ventas de emergencia no cuentan) | `economy.md` §7 y §5.2 |
+| Valor de hipoteca según precio | 20 → 10 · 25 → 13 · 30 → 15 · 35 → 18 · 40 → 20 (la mitad, redondeando hacia arriba) | `economy.md` §5.1 |
+| Coste de levantar la hipoteca | 20 → 11 · 25 → 15 · 30 → 17 · 35 → 20 · 40 → 22 (hipoteca + 10 %, redondeando hacia arriba) | `economy.md` §5.1 |
 
 ## 3. Ejércitos y combate
 
